@@ -17,3 +17,43 @@ h1, h2, h3, h4, .lead {
 .first-row {
 	background-color: #EEEEEE;
 }
+
+nav {
+	margin-top: 1em;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+.lead {
+	display: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #DDDDDD;
+}
+
+@media (min-width: 992px) {
+
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
+
